@@ -1,0 +1,78 @@
+body{
+background: url('https://i.pinimg.com/originals/b7/9b/30/b79b308b4e02c88c73dd8d9317412420.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+nav{
+  width: 100%;
+  display:flex;
+  justify-content: flex-end;
+  padding-right: 25px;
+  padding-top: 60px;
+}
+
+li{
+  color: blue;
+  text-decoration: none;
+  padding-right: 50px;
+  list-style-type: none;
+  font-size: 25px;
+}
+
+nav a{
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  color: white;
+}
+
+.container{
+  background-color: white;
+  opacity: 0.5;
+  height: 200px;
+  width: 500px;
+  margin: auto;
+  margin-top: 200px;
+  padding-left: auto;
+  padding-right: auto;
+  border-radius: 50px;
+}
+
+.welcome,.choose{
+  padding-left: 38%;
+  color: blue;
+}
+
+.choose{
+  padding-left: 41%;
+}
+.quotes{
+  text-align: center;
+}
+.container a{
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 25px;
+  padding-top: 5px;
+  padding-left: 35px;
+  margin-left: 80px;
+}
+
+.container a:hover{
+  background-color: white;
+  color: blue;
+}
+
+.imgchange{
+  width:100px;
+  height:100px;
+}
